@@ -11,10 +11,18 @@ class Backer
   end
   
   
+<<<<<<< HEAD
  def back_project(project)
     @backed_projects << project
     project.backers << self
 
+=======
+  def back_project(project)
+    backed_projects << project 
+ 
+    
+    
+>>>>>>> 07e7cc06e910b226fd5113eb3cdc531344996c58
   end
 
 
